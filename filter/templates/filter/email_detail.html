@@ -1,0 +1,17 @@
+{% extends "filter/base.html" %} {% block content %}
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <div class="inbox-nav">
+        <h3 class="index main-font">Email content</h3>
+        <a
+          class="btn btn-primary btn-sm mt-1 mb-1"
+          href="{% url 'verify-email' object.id %}"
+          >Verify</a
+        >
+      </div>
+    </div>
+    <p class="article-content">{{ object.mail }}</p>
+  </div>
+</article>
+{% endblock content %}

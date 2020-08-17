@@ -1,0 +1,14 @@
+{% extends "filter/base.html" %} {% load static %} {% block content %}
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <h3 class="main-font">Processing...</h3>
+    </div>
+    <img src="{% static 'filter/robo.gif' %}" alt="" /><br />
+
+    <p class="res">
+      {{type}}
+    </p>
+  </div>
+</article>
+{% endblock content %}

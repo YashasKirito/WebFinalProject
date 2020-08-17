@@ -1,0 +1,31 @@
+{% extends "filter/base.html" %} {% load static %} {% block content %}
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <h3 class="main-font">SpamFilter using NeuralNetwork</h3>
+    </div>
+    <img class="img-email" src="{% static 'filter/email.gif' %}" alt="" /><br />
+    <p class="about-text">
+      E-mail is one of the most secure medium for online communication and
+      transferring data or messages through the web. An overgrowing increase in
+      popularity, the number of unsolicited data has also increased rapidly. To
+      filtering data, different approaches exist which automatically detect and
+      remove these untenable messages. There are several numbers of email spam
+      filtering technique such as Knowledge-based technique, Clustering
+      techniques, Learning-based technique, Heuristic processes and so on. This
+      report illustrates a survey of different existing email spam filtering
+      system regarding Machine Learning Technique (MLT) such as Naive Bayes,
+      SVM, K-Nearest Neighbor, Bayes Additive Regression, KNN Tree, and rules.
+      However, here we present the classification, evaluation and comparison of
+      different email spam filtering system and summarize the overall scenario
+      regarding accuracy rate of different existing approaches. The internet has
+      undoubtedly become the linking tool for bringing together customers and
+      business people, countries and regions, continents and islands regardless
+      of their economic, political, cultural and social affiliations. Email
+      service providers are going ahead on making email easy to use, allowing a
+      variety of information to be conveniently and reliably sent through the
+      Internet
+    </p>
+  </div>
+</article>
+{% endblock content %}

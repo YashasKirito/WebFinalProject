@@ -1,0 +1,26 @@
+{% extends "filter/base.html" %} {% block content %}
+<div class="inbox-nav">
+  <h3 class="index main-font">My INBOX</h3>
+  <a class="btn btn-outline-danger" href="{% url 'spam-email' %}">SPAM</a>
+  <a class="btn btn-outline-success" href="{% url 'ham-email' %}">HAM</a>
+</div>
+{% for email in emails %}
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <!-- <a class="mr-2" href="#">{{ post.author }}</a> -->
+      {% if email.ttype == 1 %}
+      <small class="text-muted">SPAM</small>
+      {% else %}
+      <small class="text-muted">HAM</small>
+      {% endif %}
+    </div>
+    <h2>
+      <a class="article-title" href="{% url 'email-detail' email.id %}"
+        >Email {{email.id}}</a
+      >
+    </h2>
+    <p class="article-content">{{ email.description }}</p>
+  </div>
+</article>
+{% endfor %} {% endblock content %}

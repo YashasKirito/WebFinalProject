@@ -1,0 +1,162 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.navbar-dark .navbar-brand {
+  color: #124245;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+  color: black;
+}
+
+.bg-steel {
+  background-color: #c4e5eb;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #124245;
+}
+
+.img-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.img-email {
+  height: 350px;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.img-user {
+  width: 30px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+
+.res {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: x-large;
+}
+
+.index {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  flex-grow: 1;
+}
+
+.main-font {
+  color: #124245;
+}
+
+.inbox-nav {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.about-text {
+  padding: 2em;
+  letter-spacing: 0.01em;
+  word-spacing: 0.05em;
+  font-size: large;
+  font-weight: 600;
+}
